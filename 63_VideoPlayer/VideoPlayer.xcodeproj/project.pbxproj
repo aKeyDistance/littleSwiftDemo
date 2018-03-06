@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9E3AE0E204E38B1007186EE /* sample.mov in Resources */ = {isa = PBXBuildFile; fileRef = F9E3AE0D204E38B1007186EE /* sample.mov */; };
 		F9FEECD4204BFB0D003DA0EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FEECD3204BFB0D003DA0EC /* AppDelegate.swift */; };
 		F9FEECD6204BFB0D003DA0EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FEECD5204BFB0D003DA0EC /* ViewController.swift */; };
 		F9FEECD9204BFB0D003DA0EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FEECD7204BFB0D003DA0EC /* Main.storyboard */; };
 		F9FEECDB204BFB0D003DA0EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9FEECDA204BFB0D003DA0EC /* Assets.xcassets */; };
 		F9FEECDE204BFB0D003DA0EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FEECDC204BFB0D003DA0EC /* LaunchScreen.storyboard */; };
-		F9FEECE6204BFBD6003DA0EC /* sample.MOV in Resources */ = {isa = PBXBuildFile; fileRef = F9FEECE5204BFBD6003DA0EC /* sample.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9E3AE0D204E38B1007186EE /* sample.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sample.mov; sourceTree = "<group>"; };
 		F9FEECD0204BFB0D003DA0EC /* VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9FEECD3204BFB0D003DA0EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9FEECD5204BFB0D003DA0EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		F9FEECDA204BFB0D003DA0EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9FEECDD204BFB0D003DA0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9FEECDF204BFB0D003DA0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9FEECE5204BFBD6003DA0EC /* sample.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sample.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				F9FEECD3204BFB0D003DA0EC /* AppDelegate.swift */,
-				F9FEECE5204BFBD6003DA0EC /* sample.MOV */,
 				F9FEECD5204BFB0D003DA0EC /* ViewController.swift */,
+				F9E3AE0D204E38B1007186EE /* sample.mov */,
 				F9FEECD7204BFB0D003DA0EC /* Main.storyboard */,
 				F9FEECDA204BFB0D003DA0EC /* Assets.xcassets */,
 				F9FEECDC204BFB0D003DA0EC /* LaunchScreen.storyboard */,
@@ -126,7 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9FEECE6204BFBD6003DA0EC /* sample.MOV in Resources */,
+				F9E3AE0E204E38B1007186EE /* sample.mov in Resources */,
 				F9FEECDE204BFB0D003DA0EC /* LaunchScreen.storyboard in Resources */,
 				F9FEECDB204BFB0D003DA0EC /* Assets.xcassets in Resources */,
 				F9FEECD9204BFB0D003DA0EC /* Main.storyboard in Resources */,

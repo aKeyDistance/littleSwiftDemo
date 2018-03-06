@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
     @IBAction func playPressed(_ sender: UIButton) {
         
-        let url = Bundle.main.url(forResource: "sample", withExtension: "MOV")
+        let url = Bundle.main.url(forResource: "sample", withExtension: "mov")
         
         let player = AVPlayer(url: url!)
         let controller = AVPlayerViewController()
