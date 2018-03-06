@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A97576C1BF692B88CF6B9B6D /* Pods_AirDropDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4774BCBECF3F3E856A1C61 /* Pods_AirDropDemo.framework */; };
+		F95BB794202AFB0600B008AD /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = F95BB793202AFB0600B008AD /* image.png */; };
+		F95BB797202BEB3000B008AD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95BB796202BEB3000B008AD /* TableViewController.swift */; };
+		F9DF3C91202AEB17006DD611 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DF3C90202AEB17006DD611 /* AppDelegate.swift */; };
+		F9DF3C93202AEB17006DD611 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DF3C92202AEB17006DD611 /* ViewController.swift */; };
+		F9DF3C96202AEB17006DD611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DF3C94202AEB17006DD611 /* Main.storyboard */; };
+		F9DF3C98202AEB17006DD611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9DF3C97202AEB17006DD611 /* Assets.xcassets */; };
+		F9DF3C9B202AEB17006DD611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DF3C99202AEB17006DD611 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE4774BCBECF3F3E856A1C61 /* Pods_AirDropDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirDropDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5471C059E930BDA916FB61C /* Pods-AirDropDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirDropDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirDropDemo/Pods-AirDropDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D3F74D5B5545DE97D4ECB5B5 /* Pods-AirDropDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirDropDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirDropDemo/Pods-AirDropDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F95BB793202AFB0600B008AD /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		F95BB796202BEB3000B008AD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F9DF3C8D202AEB17006DD611 /* AirDropDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirDropDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DF3C90202AEB17006DD611 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9DF3C92202AEB17006DD611 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9DF3C95202AEB17006DD611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9DF3C97202AEB17006DD611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9DF3C9A202AEB17006DD611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9DF3C9C202AEB17006DD611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9DF3C8A202AEB17006DD611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97576C1BF692B88CF6B9B6D /* Pods_AirDropDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8E0ACD37AA0E0C1D9EEE0FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5471C059E930BDA916FB61C /* Pods-AirDropDemo.debug.xcconfig */,
+				D3F74D5B5545DE97D4ECB5B5 /* Pods-AirDropDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7EFCE16B7535C2AA78597F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE4774BCBECF3F3E856A1C61 /* Pods_AirDropDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F95BB795202BEB1F00B008AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F95BB796202BEB3000B008AD /* TableViewController.swift */,
+				F9DF3C92202AEB17006DD611 /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F9DF3C84202AEB17006DD611 = {
+			isa = PBXGroup;
+			children = (
+				F9DF3C8F202AEB17006DD611 /* AirDropDemo */,
+				F9DF3C8E202AEB17006DD611 /* Products */,
+				E8E0ACD37AA0E0C1D9EEE0FB /* Pods */,
+				F7EFCE16B7535C2AA78597F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9DF3C8E202AEB17006DD611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9DF3C8D202AEB17006DD611 /* AirDropDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9DF3C8F202AEB17006DD611 /* AirDropDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F9DF3C90202AEB17006DD611 /* AppDelegate.swift */,
+				F95BB795202BEB1F00B008AD /* Classes */,
+				F9DF3CA2202AEB51006DD611 /* Supporting Files */,
+			);
+			path = AirDropDemo;
+			sourceTree = "<group>";
+		};
+		F9DF3CA2202AEB51006DD611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F95BB793202AFB0600B008AD /* image.png */,
+				F9DF3C94202AEB17006DD611 /* Main.storyboard */,
+				F9DF3C97202AEB17006DD611 /* Assets.xcassets */,
+				F9DF3C99202AEB17006DD611 /* LaunchScreen.storyboard */,
+				F9DF3C9C202AEB17006DD611 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9DF3C8C202AEB17006DD611 /* AirDropDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9DF3C9F202AEB17006DD611 /* Build configuration list for PBXNativeTarget "AirDropDemo" */;
+			buildPhases = (
+				665BCB4D103F0B4F2CE9A7F4 /* [CP] Check Pods Manifest.lock */,
+				F9DF3C89202AEB17006DD611 /* Sources */,
+				F9DF3C8A202AEB17006DD611 /* Frameworks */,
+				F9DF3C8B202AEB17006DD611 /* Resources */,
+				9355FFDDCFB971013B1AFF2D /* [CP] Embed Pods Frameworks */,
+				8509FC11CAB097E5BF5A9114 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirDropDemo;
+			productName = AirDropDemo;
+			productReference = F9DF3C8D202AEB17006DD611 /* AirDropDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9DF3C85202AEB17006DD611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JdHealth;
+				TargetAttributes = {
+					F9DF3C8C202AEB17006DD611 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F9DF3C88202AEB17006DD611 /* Build configuration list for PBXProject "AirDropDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9DF3C84202AEB17006DD611;
+			productRefGroup = F9DF3C8E202AEB17006DD611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9DF3C8C202AEB17006DD611 /* AirDropDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9DF3C8B202AEB17006DD611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DF3C9B202AEB17006DD611 /* LaunchScreen.storyboard in Resources */,
+				F9DF3C98202AEB17006DD611 /* Assets.xcassets in Resources */,
+				F9DF3C96202AEB17006DD611 /* Main.storyboard in Resources */,
+				F95BB794202AFB0600B008AD /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		665BCB4D103F0B4F2CE9A7F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirDropDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8509FC11CAB097E5BF5A9114 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirDropDemo/Pods-AirDropDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9355FFDDCFB971013B1AFF2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AirDropDemo/Pods-AirDropDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirDropDemo/Pods-AirDropDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9DF3C89202AEB17006DD611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DF3C93202AEB17006DD611 /* ViewController.swift in Sources */,
+				F95BB797202BEB3000B008AD /* TableViewController.swift in Sources */,
+				F9DF3C91202AEB17006DD611 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9DF3C94202AEB17006DD611 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9DF3C95202AEB17006DD611 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9DF3C99202AEB17006DD611 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9DF3C9A202AEB17006DD611 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9DF3C9D202AEB17006DD611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9DF3C9E202AEB17006DD611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9DF3CA0202AEB17006DD611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5471C059E930BDA916FB61C /* Pods-AirDropDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9RGZS27C8;
+				INFOPLIST_FILE = "AirDropDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igetwell.AirDropDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9DF3CA1202AEB17006DD611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3F74D5B5545DE97D4ECB5B5 /* Pods-AirDropDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9RGZS27C8;
+				INFOPLIST_FILE = "AirDropDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igetwell.AirDropDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9DF3C88202AEB17006DD611 /* Build configuration list for PBXProject "AirDropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DF3C9D202AEB17006DD611 /* Debug */,
+				F9DF3C9E202AEB17006DD611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9DF3C9F202AEB17006DD611 /* Build configuration list for PBXNativeTarget "AirDropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DF3CA0202AEB17006DD611 /* Debug */,
+				F9DF3CA1202AEB17006DD611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9DF3C85202AEB17006DD611 /* Project object */;
+}

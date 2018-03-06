@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RearrangeTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uTC-Hf-xko">
+                                <rect key="frame" x="0.0" y="84" width="375" height="545"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="2N8-0Q-HLt"/>
+                                    <constraint firstAttribute="height" constant="545" id="bzZ-4b-WeP"/>
+                                </constraints>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6yo-gl-N1b">
+                                <rect key="frame" x="0.0" y="40" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="9Xd-ss-mrQ"/>
+                                    <constraint firstAttribute="width" constant="375" id="UUO-jB-r8c"/>
+                                    <constraint firstAttribute="height" constant="44" id="br3-zb-HuG"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Title" id="Xtl-Ml-cv2">
+                                        <barButtonItem key="rightBarButtonItem" title="edit" id="p5V-Sg-iMT">
+                                            <connections>
+                                                <action selector="editPressed:" destination="BYZ-38-t0r" id="VWy-da-jy3"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6yo-gl-N1b" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="HWu-K7-dI2"/>
+                            <constraint firstAttribute="bottom" secondItem="uTC-Hf-xko" secondAttribute="bottom" id="HhG-4p-hRv"/>
+                            <constraint firstItem="6yo-gl-N1b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="IJN-Yf-MUv"/>
+                            <constraint firstItem="uTC-Hf-xko" firstAttribute="top" secondItem="6yo-gl-N1b" secondAttribute="bottom" constant="64" id="P7P-dK-t6n"/>
+                            <constraint firstItem="uTC-Hf-xko" firstAttribute="top" secondItem="6yo-gl-N1b" secondAttribute="bottom" id="QtS-5n-rbl"/>
+                            <constraint firstItem="uTC-Hf-xko" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="W3q-tx-EmH"/>
+                            <constraint firstItem="6yo-gl-N1b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="ccv-dv-pzu"/>
+                            <constraint firstItem="uTC-Hf-xko" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pNC-r5-ONM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="editorButton" destination="p5V-Sg-iMT" id="Jfu-6o-rBj"/>
+                        <outlet property="tableview" destination="uTC-Hf-xko" id="UT1-cC-15m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-100" y="107.49625187406298"/>
+        </scene>
+    </scenes>
+</document>

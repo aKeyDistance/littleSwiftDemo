@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNextCondensed.ttc">
+            <string>AvenirNextCondensed-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimationChaining" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="milk.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wKV-x2-pbc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ihf-3e-Gx2">
+                                <rect key="frame" x="12.666666666666657" y="231" width="350" height="350"/>
+                                <subviews>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xei-jp-P4a">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="kKi-NO-LOy">
+                                            <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wecome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pON-tv-8UL">
+                                                    <rect key="frame" x="47" y="46" width="266" height="58"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="30"/>
+                                                    <color key="textColor" red="0.99987310171127319" green="0.87448205273724777" blue="0.24892981007214551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Rj-83-rbI">
+                                                    <rect key="frame" x="100" y="156" width="150" height="150"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.99987310171127319" green="0.39153480332858714" blue="0.33638357676318492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="25"/>
+                                                    <state key="normal" title="Continue">
+                                                        <color key="titleColor" red="0.99987310171127319" green="0.87448205273724777" blue="0.24892981007214551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <integer key="value" value="75"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </button>
+                                            </subviews>
+                                        </view>
+                                        <blurEffect style="light"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </visualEffectView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="xei-jp-P4a" firstAttribute="centerX" secondItem="Ihf-3e-Gx2" secondAttribute="centerX" id="0Gq-hM-QJ7"/>
+                                    <constraint firstAttribute="width" constant="350" id="41x-Xv-hSL"/>
+                                    <constraint firstAttribute="height" constant="350" id="671-jD-7WE"/>
+                                    <constraint firstItem="xei-jp-P4a" firstAttribute="width" secondItem="Ihf-3e-Gx2" secondAttribute="width" id="6sk-I3-D9V"/>
+                                    <constraint firstItem="xei-jp-P4a" firstAttribute="centerY" secondItem="Ihf-3e-Gx2" secondAttribute="centerY" id="pAN-XK-DNR"/>
+                                    <constraint firstItem="xei-jp-P4a" firstAttribute="height" secondItem="Ihf-3e-Gx2" secondAttribute="height" id="qwH-ng-gjE"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ihf-3e-Gx2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GzE-nW-MRx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wKV-x2-pbc" secondAttribute="trailing" id="RTH-PM-x17"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wKV-x2-pbc" secondAttribute="bottom" id="pMq-F2-McO"/>
+                            <constraint firstItem="wKV-x2-pbc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="q74-mA-IgJ"/>
+                            <constraint firstItem="Ihf-3e-Gx2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ubQ-cG-he0"/>
+                            <constraint firstItem="wKV-x2-pbc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uxs-eY-uXz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bgImageView" destination="wKV-x2-pbc" id="9hM-aG-nMi"/>
+                        <outlet property="continueBtn" destination="7Rj-83-rbI" id="TH4-Rg-mpj"/>
+                        <outlet property="mainView" destination="Ihf-3e-Gx2" id="QFN-5i-YJu"/>
+                        <outlet property="mainViewContrstraint" destination="pAN-XK-DNR" id="QhY-j0-YEj"/>
+                        <outlet property="welcomeLabel" destination="pON-tv-8UL" id="HWG-TN-qgA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="121.92118226600985"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="milk.jpg" width="1280" height="719"/>
+    </resources>
+</document>

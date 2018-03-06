@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HorizontalScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunset" translatesAutoresizingMaskIntoConstraints="NO" id="AhI-jf-See">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="q13-Q6-ow5">
+                                <rect key="frame" x="167.5" y="627" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="U0A-ha-DyY"/>
+                                    <constraint firstAttribute="width" constant="40" id="rnE-8E-LCc"/>
+                                </constraints>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8V-xE-EXT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="q13-Q6-ow5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CVv-NA-Xn0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AhI-jf-See" secondAttribute="trailing" id="DAC-hy-4Ti"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="V8V-xE-EXT" secondAttribute="bottom" id="I6J-sH-d6p"/>
+                            <constraint firstItem="V8V-xE-EXT" firstAttribute="leading" secondItem="AhI-jf-See" secondAttribute="leading" id="I9e-hP-W6a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AhI-jf-See" secondAttribute="bottom" id="Ke3-jK-Zu3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V8V-xE-EXT" secondAttribute="trailing" id="Pr7-TO-laO"/>
+                            <constraint firstItem="AhI-jf-See" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VOy-p1-g2O"/>
+                            <constraint firstItem="AhI-jf-See" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dRU-iW-W1R"/>
+                            <constraint firstItem="V8V-xE-EXT" firstAttribute="top" secondItem="AhI-jf-See" secondAttribute="top" id="nC9-hF-FK0"/>
+                            <constraint firstItem="q13-Q6-ow5" firstAttribute="bottom" secondItem="AhI-jf-See" secondAttribute="bottom" id="xdD-x6-ZPT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="q13-Q6-ow5" id="K7m-Id-vW8"/>
+                        <outlet property="scrollView" destination="V8V-xE-EXT" id="bv4-Q3-T1t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sunset" width="1280" height="720"/>
+    </resources>
+</document>
